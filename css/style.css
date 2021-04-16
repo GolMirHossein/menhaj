@@ -1,0 +1,50 @@
+@font-face {
+    font-family: IranSans;
+    src: url(fonts/IRANSansWeb.woff2) format("woff2");
+  }
+
+ body {
+     font-family: IranSans;
+     margin-top: 75px;
+ }
+
+ .f-800 {
+     font-weight: 800;
+ }
+
+ .navbar {
+     background: #fff;
+     opacity: 0.9;
+ }
+
+ #bgShow {
+     position: relative;
+     min-height: 530px;
+     background: url(../img/bgShow.jpg);
+ }
+
+ .bgShow-main {
+     position: absolute;
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     background: rgb(50 60 111 / 68%);
+ }
+
+ .fontBoxIcon {
+     font-size: 50px;
+ }
+
+ .fontCommentsIcon {
+    font-size: 25px;
+}
+ #comments img {
+     margin-top: -55px;
+ }
+
+ @media (max-width:768px) {
+     .mb-input {
+         margin-bottom: 5px;
+     }
+ }
